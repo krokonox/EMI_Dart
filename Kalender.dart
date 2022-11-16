@@ -32,6 +32,12 @@ void printCalendar(int month, int days) {
     
   }
   
+  // Kalendar auffüllen mit Leerzeichen
+  if (daysList.length % 7 != 0) {
+    for (int i = 0; i < 7 - (daysList.length % 7); i++) {
+      stdout.write('  |');
+    }
+  }
 }
 
 void main() {
