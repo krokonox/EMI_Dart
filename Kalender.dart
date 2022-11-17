@@ -9,7 +9,7 @@ void displayCalendar(int month, int startingDay) {
     daysList.insert(0, ' ');
   }
 
-  for (int i = 1; i <= daysinMonth; i++) {
+  for (int i = 1; i <= daysInMonth; i++) {
     daysList.add(i.toString());
   }
   
