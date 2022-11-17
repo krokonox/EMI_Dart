@@ -21,7 +21,6 @@ void displayCalendar(int month, int startingDay) {
       stdout.write(daysList[i] + '|');
     }
     else stdout.write(daysList[i] + ' |');
-    
   }
   
   // Kalendar auffüllen mit Leerzeichen
