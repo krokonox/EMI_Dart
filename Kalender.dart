@@ -52,6 +52,8 @@ int getDaysInMonth(int month) {
   }
 }
 
+// Call displayCalendar function with multiple input parameters 
+
 void main() {
   displayCalendar(2, 2);
   displayCalendar(1, 3);
